@@ -1,0 +1,18 @@
+
+.menu__lista{
+    display: flex; 
+}
+
+.menu__enlace{
+    color: var(--fuente-ceniza-claro);
+    margin-right: 1.25rem;
+    
+}
+
+.menu__enlace--activo{
+    color: var(--fuente-ceniza-oscuro);
+}
+
+.menu__enlace:hover{
+    text-decoration: underline ; /*linea subrayada por encima*/
+}

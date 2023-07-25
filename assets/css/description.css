@@ -1,0 +1,47 @@
+.description{
+    
+    text-align: center;
+    
+}
+
+.description__titulo{
+    color: var(--fuente-rojo);
+    font-family: var(--pacific-cursive);
+    
+
+}
+
+.description__texto{
+    color: #8c8888;
+    
+    font-weight: 100;
+}
+
+@media screen  and (min-width: 0) {
+    
+    .description{
+        padding: 2.5rem 1rem;
+    }
+
+    .description__titulo{
+        font-size: 2rem;
+    }
+
+    .description__texto{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .description{
+        padding: 2.5rem;
+    }
+
+    .description__titulo{
+        font-size: 3.1875rem ;
+    }
+
+    .description__texto{
+        font-size: 1.75rem;
+    }
+}
