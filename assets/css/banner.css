@@ -3,7 +3,7 @@
 }
 
 .banner__imagen{
-    background: url(/img/banner.png) no-repeat center / cover;
+    background: url(../img/banner.png) no-repeat center / cover;
    
     width: 100%;
     
